@@ -1,0 +1,220 @@
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+.header{
+text-align:center;
+
+
+}
+
+.grid-container{
+justify-content:center;
+display:grid;
+grid-column-gap: 10px;
+
+grid-template-columns:auto auto auto auto;
+
+border:0.5px solid #003300;
+
+}
+
+.grid-items{
+
+background:#003300;
+color:white;
+padding:10px;
+width:150px;
+height:40px;
+margin:10px;
+text-align:center;
+border-radius:2em;
+
+
+}
+
+
+.grid-items a{
+
+text-decoration:none;
+color:white;
+
+font-size:20px;
+
+
+}
+
+.grid-containers{
+margin-top:40px;
+display:grid;
+grid-template-columns:auto auto;
+
+
+
+}
+.grid-item{
+width:100%;
+
+}
+
+.grid-item img{
+width:100%;
+height:auto;
+
+
+
+}
+.grid-item {
+font-size:24px;
+
+}
+
+.booking .form{
+
+width:700px;
+height:500px;
+background:#66ff00;
+border:none;
+border-radius:1em;
+
+
+}
+
+input{
+width:250px;
+padding:10px;
+margin:20px;
+outline-color:#66ff00;
+}
+
+textarea{
+
+width:570px;
+padding:10px;
+margin:20px;
+outline-color:#66ff00;
+
+
+}
+
+#sm{
+background:#003300;
+color:white;
+border:none;
+height:50px;
+border-radius:2em;
+
+}
+
+
+.container{
+
+display:grid;
+grid-template-columns:auto auto auto;
+background-color:#003300;
+margin:20px;
+
+
+}
+
+.container-item{
+padding:10px;
+margin:10px;
+text-align:center;
+
+}
+
+.container-item a{
+color:white;
+display:block;
+text-decoration:none;
+padding:10px;
+font-size:20px;
+
+}
+
+.container-item p{
+color:white;
+font-size:20px;
+}
+
+
+@media only screen and (max-width:768px){
+.header img{
+width:100%;
+height:auto;
+
+}
+.grid-container{
+justify-content:center;
+display:grid;
+grid-template-columns:auto;
+
+
+}
+
+.grid-items{
+width:200px;
+border-radius:0px;
+
+}
+
+.grid-containers{
+justify-content:center;
+display:grid;
+grid-template-columns:auto;
+
+
+}
+
+.grid-item{
+text-align:center;
+}
+
+
+.booking .form{
+
+width:100%;
+height:auto;
+}
+
+
+
+
+input{
+width:300px;
+
+}
+
+textarea{
+
+width:300px;
+
+}
+
+.container{
+justify-content:center;
+display:grid;
+grid-template-columns:auto;
+
+
+}
+
+}
+
